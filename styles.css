@@ -1,5 +1,5 @@
 body{
-    background: pink;
+    background: blueviolet;
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -7,13 +7,16 @@ body{
 .assignment{
     display: flex;
     padding: 10px;
+    margin: 10px;
+    background: white;
+    border-radius: 50px;
 }
 
 .assignment img {
     width: 200px;
     padding: 10px;
-    margin: 10px;
-    background: lightgrey;
+    border: 2px lightgoldenrodyellow;
+    margin: 5px dashed;
 }
 
 
@@ -21,3 +24,10 @@ h1{
     color: darkgreen;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+
